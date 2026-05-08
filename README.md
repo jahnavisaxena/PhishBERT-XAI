@@ -4,20 +4,20 @@ PhishBERT-XAI is an advanced, hybrid phishing URL detection and automated threat
 
 The system combines a fine-tuned **CANINE Transformer** (a character-level deep learning model) with a robust **Heuristic Engine** to provide transparent, explainable AI (XAI) security threat assessments.
 
-## 🚀 Features
+##  Features
 
 - **Deep Learning Core**: Utilizes Google's CANINE architecture trained on real-world benign and phishing datasets, augmented with synthetic homoglyph samples for advanced typo-squatting detection.
 - **Heuristic Engine**: Performs 12 critical security checks, including SSL/HTTPS validation, TLD reputation, raw IP usage, brand impersonation, and phishing keyword detection.
 - **XAI Reporting**: Breaks down exactly *why* a URL is considered dangerous, giving security analysts clear visibility into the threat indicators.
 - **Modern UI**: A premium, responsive React dashboard featuring real-time scanning and threat scoring.
 
-## 🏗️ Architecture
+##  Architecture
 
 - **Frontend**: React + Vite + Vanilla CSS
 - **Backend**: FastAPI + Python
 - **Model**: PyTorch + HuggingFace Transformers (CANINE-c)
 
-## 🛠️ Installation & Setup
+##  Installation & Setup
 
 ### 1. Backend Setup (FastAPI & AI Model)
 Navigate to the backend directory, set up your Python environment, and start the server:
@@ -39,7 +39,7 @@ npm run dev
 ```
 *Note: The UI runs on `http://localhost:5173`.*
 
-## 🔒 Usage
+##  Usage
 1. Ensure both the backend and frontend servers are running.
 2. Open the UI in your browser.
 3. Paste a suspicious URL, domain, or IP address into the centralized search bar.

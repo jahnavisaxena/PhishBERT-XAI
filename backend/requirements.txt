@@ -1,0 +1,10 @@
+fastapi
+uvicorn
+torch
+transformers
+accelerate
+shap
+pandas
+scikit-learn
+datasets
+python-multipart
